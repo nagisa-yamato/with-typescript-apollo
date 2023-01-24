@@ -2,7 +2,7 @@
 
 [Next.js examples](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-graphql) の依存関係を更新したものです
 
-注: [pnpm](https://pnpm.io/installation) を使用しています
+注: [pnpm](https://pnpm.io/installation#using-corepack) を使用しています
 
 # TypeScript and GraphQL Example
 
