@@ -1,3 +1,9 @@
+# なにこれ
+
+[Next.js examples](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-graphql) の依存関係を更新したものです
+
+注: [pnpm](https://pnpm.io/installation) を使用しています
+
 # TypeScript and GraphQL Example
 
 One of the strengths of GraphQL is [enforcing data types on runtime](https://graphql.github.io/graphql-spec/June2018/#sec-Value-Completion). Further, TypeScript and [GraphQL Code Generator](https://graphql-code-generator.com/) (graphql-codegen) make it safer by typing data statically, so you can write truly type-protected code with rich IDE assists.
@@ -5,17 +11,17 @@ One of the strengths of GraphQL is [enforcing data types on runtime](https://gra
 This template gives you the best start to use GraphQL with fully typed queries (client-side) and resolvers (server-side), all this with minimum bundle size 📦
 
 ```tsx
-import { useQuery } from '@apollo/client'
-import { ViewerDocument } from 'lib/graphql-operations'
+import { useQuery } from "@apollo/client";
+import { ViewerDocument } from "lib/graphql-operations";
 
 const News = () => {
   // Typed already️⚡️
   const {
     data: { viewer },
-  } = useQuery(ViewerDocument)
+  } = useQuery(ViewerDocument);
 
-  return <div>{viewer.name}</div>
-}
+  return <div>{viewer.name}</div>;
+};
 ```
 
 ## Deploy your own
